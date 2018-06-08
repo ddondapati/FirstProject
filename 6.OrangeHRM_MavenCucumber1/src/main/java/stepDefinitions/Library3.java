@@ -17,6 +17,8 @@ public class Library3 {
 		 driver = new ChromeDriver();
 		System.out.println("chrome browser launched successfully");
 		System.out.println("chrome browser launched successfully");
+		System.out.println("chrome browser launched successfully");
+		System.out.println("chrome browser launched successfully");
 	}
 
 	@When("navigate to Application using the url")
