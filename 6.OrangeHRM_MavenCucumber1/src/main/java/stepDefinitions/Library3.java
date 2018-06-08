@@ -15,6 +15,7 @@ public class Library3 {
 	public void open_the_Browser() {
 		System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+"\\lib\\chromedriver.exe");
 		 driver = new ChromeDriver();
+		System.out.println("chrome browser launched successfully");
 	}
 
 	@When("navigate to Application using the url")
